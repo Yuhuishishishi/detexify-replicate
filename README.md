@@ -4,6 +4,8 @@ This app replicates the functionalities of [Detexify](https://detexify.kirelabs.
 
 Demo link: detexify.yuhuishi.me
 
+[![Deploy to DO](https://mp-assets1.sfo2.digitaloceanspaces.com/deploy-to-do/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/Yuhuishishishi/detexify-replicate/tree/main)
+
 ## What it can do 
 
 >  Anyone who works with LaTeX knows how time-consuming it can be to find a symbol in symbols-a4.pdf that you just can't memorize. Detexify is an attempt to simplify this search. 

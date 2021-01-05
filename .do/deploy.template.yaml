@@ -1,0 +1,9 @@
+spec:
+ name: detexify-replicate
+ static_sites:
+ - git:
+     branch: main
+     repo_clone_url: https://github.com/Yuhuishishishi/detexify-replicate
+   name: detexify
+   environment_slug: node-js
+   build_command: npm build
