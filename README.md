@@ -21,6 +21,8 @@ Under the hood, the model is a simple CNN learner.
 
 The data the model is trained on consist of bunch of labeled math symbol images. You can find more details here [HASYv2 Dataset](https://www.kaggle.com/martinthoma/hasyv2-dataset-friend-of-mnist).
 
+Overall, the model can achieve 60% accuracy.
+
 ## How is the model served?
 
 The model is served through [tensorflow.js](https://www.tensorflow.org/js), and runs in your browser. There is no backend associated with the application. 
