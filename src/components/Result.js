@@ -1,4 +1,4 @@
-import Latex from "react-latex";
+import MathJax from 'react-mathjax-preview'
 
 function Result(props) {
 
@@ -8,9 +8,14 @@ function Result(props) {
 
         const displayScore = (s * 100).toFixed(2);
 
+        const latexSymbol = symbols[idx];
+        const latextRepr = `$$ ${latexSymbol} $$`;
+
+        console.log(latextRepr)
+
         return (
             <li key={idx}>
-                <p>  {symbols[idx]} </p>
+                {latexSymbol}: <MathJax math={latextRepr} />
                 <div className="progress">
                         <div className="progress-bar" role="progressbar" 
                             aria-valuenow={displayScore} aria-valuemin="0" aria-valuemax="100"
@@ -23,11 +28,9 @@ function Result(props) {
     console.log(results);
 
     return (
-        <div>
             <ul>
                 {results}
             </ul>
-        </div>
     )
 }
 
